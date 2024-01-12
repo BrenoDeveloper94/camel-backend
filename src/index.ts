@@ -1,5 +1,7 @@
 import app from './server/server'
-app
+import router from './users/controller/route'
+
+app.use(router)
 
 
 
