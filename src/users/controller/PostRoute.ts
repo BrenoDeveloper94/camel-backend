@@ -1,9 +1,9 @@
 import { Router } from 'express'
-import read from '../model/repositories/read'
+import create from '../model/repositories/create'
 
 const router = Router()
 
-router.get('/', read)
+router.post('/user', create)
 
 export default router
 
